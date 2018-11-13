@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: Gill Bold;
+	src: url(GillSansMTNegrito.ttf);
+}
+
+@font-face{
+	font-family: Gill;
+	src: url(GillSansMT.ttf);
+}
+
+h2,h3,h4, button{
+	font-family: Gill Bold;
+	letter-spacing: -0.05vw;
+	color: white;
+}
+
+h3{
+
+	font-size: 170%;
+}
+
+p{
+
+	font-size: 150%;
+}
+
+h2{
+
+	font-size: 180%;	
+}
+
+h4{
+	font-size: 120%;
+}
+h1,p, input, textarea{
+	font-family: Gill;
+	font-weight: lighter;
+	color: white;
+	
+}
+
+body{
+	width: auto;
+	background: url("mistical.jpg");
+	background-position: 100%;
+  	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+.perfil{
+	text-align: center;
+	height: 100%;
+	padding: 10%;
+}
+
+
+
+.perfil-links{
+	list-style: none;
+}
+
+
+.perfil-titulo{
+	color: white;
+	font-size: 170%;
+}
+
+.titulo{
+	margin-bottom: 2%;	
+}
+
+.about{
+	background-color: #070f20;
+	padding: 5% 10%;
+}
+
+.caixa-esquerda{
+	display: inline-block;
+	position: relative;
+	width: 39%;
+	margin: 10% 5% 10% 10%;
+}
+
+.caixa-direita{
+	display: inline-block;
+	float:right;
+	width: 39%;
+	margin: 10% 0 10% 5%;
+}
+
+.titulo1{
+
+}
+
+.titulo2{
+	float: left;
+	margin: 2% 0 1% 0;
+}
+
+.titulo3{
+	position: relative;
+	margin:2% 0 1% 65%;
+}
+
+.barra{
+	position: relative;
+	background-color: white;
+	padding: 1%;
+	margin-right: 30%;
+}
+.barra2{
+	position: relative;
+	padding: 2%;
+	margin-right: 20%;
+	background-color: #070f20;
+}
+
+.menu {
+	background-color: white;
+	text-align: center;
+	font-size: 150%;
+}
+
+.galeria{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+}
+
+.imagem{
+	width: 20%;
+	padding: 5%;
+}
+.imagem:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.button{
+	background-color: var(--CorPrincipal);
+    border: none;
+    color: var(--CordeTexto1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.7s;
+ }
+
+ .button:hover {
+    background-color: #070f20;
+    color: white;
+}
+
+.button:focus{
+	background-color: black;
+	color: white;
+}
+
+#drawing, #illustration, #animation{
+	display: none;
+}
+
+.formulario{
+	display: inline-block;
+	position: relative;
+	width: 70%;
+	padding: 10%;
+}
+
+input, textarea{
+	display: inline-block;
+	width: 40%;
+	height: 35px;
+	margin-top: 1%;
+	padding: 0 1%;
+	background-color: white;
+	color: #070f20;
+	resize: none;
+	border: 0;
+	font-size: 150%
+}
+
+textarea{
+	height:150px;
+	word-break: break-all;
+	outline: none;
+}
+
+input[type=submit]{
+	position: relative;
+	width: 15%;
+	cursor:pointer;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid;
+	color: white;
+}
+
+input[type=submit]:hover{
+	background-color: #fff2f8;
+	color: #001B30;
+	border: 1.5px solid #001B30;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #070f20;
+}

@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: Gill Bold;
+	src: url(GillSansMTNegrito.ttf);
+}
+
+@font-face{
+	font-family: Gill;
+	src: url(GillSansMT.ttf);
+}
+
+h2,h3,h4, button{
+	font-family: Gill Bold;
+	letter-spacing: -0.05vw;
+	color: white;
+}
+
+h1{
+	color: #070f20;
+}
+
+h3{
+
+	font-size: 170%;
+}
+
+p{
+
+	font-size: 150%;
+	color: white;	
+
+}
+
+h2{
+
+	font-size: 180%;	
+}
+
+h4{
+	font-size: 120%;
+}
+h1,p, input, textarea{
+	font-family: Gill;
+	font-weight: lighter;
+	
+	
+}
+
+body{
+	width: auto;
+	background: url("mistical.jpg");
+	background-position: 100%;
+  	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.caixa{
+	text-align: center;
+	width: 500px;
+	background-color: white;
+	position: absolute;
+	right: 31.7%;
+	z-index: 999;
+	padding-bottom:3%;
+
+
+}
+
+.perfil{
+	text-align: center;
+	height: 100%;
+	padding: 15%;
+}
+
+.perfil-links{
+	list-style: none;
+}
+
+.perfil-titulo{
+	color: white;
+	font-size: 170%;
+}
+
+.titulo{
+	margin-bottom: 2%;	
+}
+
+.titulo1{
+
+}
+
+.titulo2{
+	float: left;
+	margin: 2% 0 1% 0;
+}
+
+.titulo3{
+	position: relative;
+	margin:2% 0 1% 65%;
+}
+
+.show{
+	position: relative;
+	background-color: #070f20;
+	padding: 5% 10% 5% 10%;
+
+}
+
+.imagem{
+
+	padding: 15% 10% 5% 10%;
+	text-align: center;	
+	
+}
+
+.perfil-foto{
+	padding: 5%;
+}
+
+.texto{
+
+	padding: 0 10% 5% 10%;
+}
+
+
+.formulario{
+	display: inline-block;
+	position: relative;
+	width: 70%;
+	padding: 10%;
+}
+
+input, textarea{
+	display: inline-block;
+	width: 40%;
+	height: 35px;
+	margin-top: 1%;
+	padding: 0 1%;
+	background-color: white;
+	color: #070f20;
+	resize: none;
+	border: 0;
+	font-size: 150%
+}
+
+textarea{
+	height:150px;
+	word-break: break-all;
+	outline: none;
+}
+
+input[type=submit]{
+	position: relative;
+	width: 15%;
+	cursor:pointer;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid;
+	color: white;
+}
+
+input[type=submit]:hover{
+	background-color: #fff2f8;
+	color: #001B30;
+	border: 1.5px solid #001B30;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #070f20;
+}
