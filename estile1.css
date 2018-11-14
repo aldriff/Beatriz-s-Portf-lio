@@ -127,6 +127,20 @@ body{
 	padding: 0 10% 5% 10%;
 }
 
+.foraback{
+	padding: 2% 40% 2% 45%;
+}
+
+.back{
+
+}
+
+.back:hover {
+
+    color: white;
+    background-color: white;
+}
+
 
 .formulario{
 	display: inline-block;
